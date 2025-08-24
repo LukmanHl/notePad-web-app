@@ -29,5 +29,4 @@ function addNote(){
   notes.push(noteObj);
 }
 
-btnEl.addEventListeners("click", addNote);
-
+btnEl.addEventListener("click", addNote);
